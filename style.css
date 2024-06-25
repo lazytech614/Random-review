@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CAF4FF;
+    font-family: cursive;
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 56px;
+    text-align: center;
+}
+
+.line{
+    background-color: #5AB2FF;
+    height: 4px;
+    width: 108px;
+    border-radius: 2px;
+}
+
+.review-container{
+    max-width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.514);
+    margin-top: 48px;
+    padding: 16px 8px;
+}
+
+.img-container{
+    background-color: #5AB2FF;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-inline: auto;
+    position: relative;
+}
+
+.img-container img{
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.quotation-container{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #5AB2FF;
+    position: absolute;
+    top: 10px;
+    left: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 32px;
+    color: white;
+}
+
+.personal-info{
+    /* background-color: #5AB2FF; */
+    width: 200px;
+    margin-top: 16px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+#occupation{
+    text-transform: uppercase;
+    color: #5AB2FF;
+}
+
+.review{
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    font-size: 24px;
+    color: #5AB2FF;
+}
+
+.btn-container i{
+    cursor: pointer;
+}
+
+.surprise-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#surprise-me{
+    background-color: #5AB2FF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 0.2em 0.4em;
+    font-family: inherit;
+    cursor: pointer;
+}
